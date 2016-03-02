@@ -60,11 +60,6 @@
 
             set
             {
-                if (this.ContainsKey(key))
-                {
-                    this.Remove(key);
-                }
-
                 this.Add(key, value);
             }
         }
