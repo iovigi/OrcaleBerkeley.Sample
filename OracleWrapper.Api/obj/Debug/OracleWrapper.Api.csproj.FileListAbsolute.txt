@@ -1,7 +1,0 @@
-D:\temp\OrcaleBerkeley.Sample\OracleWrapper.Api\bin\Debug\OracleWrapper.Api.dll
-D:\temp\OrcaleBerkeley.Sample\OracleWrapper.Api\bin\Debug\OracleWrapper.Api.pdb
-D:\temp\OrcaleBerkeley.Sample\OracleWrapper.Api\bin\Debug\libdb_dotnet61.dll
-D:\temp\OrcaleBerkeley.Sample\OracleWrapper.Api\bin\Debug\libdb_dotnet61.xml
-D:\temp\OrcaleBerkeley.Sample\OracleWrapper.Api\obj\Debug\OracleWrapper.Api.csprojResolveAssemblyReference.cache
-D:\temp\OrcaleBerkeley.Sample\OracleWrapper.Api\obj\Debug\OracleWrapper.Api.dll
-D:\temp\OrcaleBerkeley.Sample\OracleWrapper.Api\obj\Debug\OracleWrapper.Api.pdb
