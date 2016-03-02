@@ -4,15 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D7F679BA-6ECA-475B-8D65-C4E8E3948FEB}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{BFE84DBB-6B26-4955-B710-D9823A20728E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OracleWrapper.Api</RootNamespace>
-    <AssemblyName>OracleWrapper.Api</AssemblyName>
+    <RootNamespace>OracleWrapper.Api.Test</RootNamespace>
+    <AssemblyName>OracleWrapper.Api.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -30,10 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="libdb_dotnet61, Version=6.1.26.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Berkeley.DB.6.1.26\lib\net40\libdb_dotnet61.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,18 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Database.cs" />
-    <Compile Include="IDatabase.cs" />
-    <Compile Include="Persist\DefaultConverter.cs" />
-    <Compile Include="Persist\IConverter.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="libdb61.dll" />
-    <Content Include="libdb_csharp61.dll" />
+    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ProjectReference Include="..\OracleWrapper.Api\OracleWrapper.Api.csproj">
+      <Project>{d7f679ba-6eca-475b-8d65-c4e8e3948feb}</Project>
+      <Name>OracleWrapper.Api</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

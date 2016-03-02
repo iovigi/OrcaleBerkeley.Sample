@@ -1,0 +1,10 @@
+D:\temp\OrcaleBerkeley.Sample\OracleWrapper.Api.Test\bin\Debug\OracleWrapper.Api.Test.exe.config
+D:\temp\OrcaleBerkeley.Sample\OracleWrapper.Api.Test\bin\Debug\OracleWrapper.Api.Test.exe
+D:\temp\OrcaleBerkeley.Sample\OracleWrapper.Api.Test\bin\Debug\OracleWrapper.Api.Test.pdb
+D:\temp\OrcaleBerkeley.Sample\OracleWrapper.Api.Test\bin\Debug\OracleWrapper.Api.dll
+D:\temp\OrcaleBerkeley.Sample\OracleWrapper.Api.Test\bin\Debug\libdb_dotnet61.dll
+D:\temp\OrcaleBerkeley.Sample\OracleWrapper.Api.Test\bin\Debug\OracleWrapper.Api.pdb
+D:\temp\OrcaleBerkeley.Sample\OracleWrapper.Api.Test\bin\Debug\libdb_dotnet61.xml
+D:\temp\OrcaleBerkeley.Sample\OracleWrapper.Api.Test\obj\Debug\OracleWrapper.Api.Test.csprojResolveAssemblyReference.cache
+D:\temp\OrcaleBerkeley.Sample\OracleWrapper.Api.Test\obj\Debug\OracleWrapper.Api.Test.exe
+D:\temp\OrcaleBerkeley.Sample\OracleWrapper.Api.Test\obj\Debug\OracleWrapper.Api.Test.pdb

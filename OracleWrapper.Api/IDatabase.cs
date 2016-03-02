@@ -1,7 +1,10 @@
 ﻿namespace OracleWrapper.Api
 {
-    public interface IDatabase<TKey,TValue>
+    using System;
+    using System.Collections.Generic;
+
+    public interface IDatabase<TKey, TValue> : IDictionary<TKey, TValue>, IDisposable
     {
-        void Insert(TKey key, TValue value);
+        void Flush();
     }
 }

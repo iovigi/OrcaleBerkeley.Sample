@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OracleWrapper.Api", "OracleWrapper.Api\OracleWrapper.Api.csproj", "{D7F679BA-6ECA-475B-8D65-C4E8E3948FEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OracleWrapper.Api.Test", "OracleWrapper.Api.Test\OracleWrapper.Api.Test.csproj", "{BFE84DBB-6B26-4955-B710-D9823A20728E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D7F679BA-6ECA-475B-8D65-C4E8E3948FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7F679BA-6ECA-475B-8D65-C4E8E3948FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7F679BA-6ECA-475B-8D65-C4E8E3948FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFE84DBB-6B26-4955-B710-D9823A20728E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE84DBB-6B26-4955-B710-D9823A20728E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE84DBB-6B26-4955-B710-D9823A20728E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE84DBB-6B26-4955-B710-D9823A20728E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

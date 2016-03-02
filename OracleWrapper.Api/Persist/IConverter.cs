@@ -3,6 +3,7 @@
     public interface IConverter<T>
     {
         byte[] ToBytes(T value);
+
         T FromBytes(byte[] value);
     }
 }
